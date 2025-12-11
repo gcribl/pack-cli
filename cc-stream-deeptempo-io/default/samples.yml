@@ -1,0 +1,6 @@
+netflow_sample:
+  sampleName: netflow_sample.json
+  created: 1732570000000
+  size: 2048
+  numEvents: 10
+  description: Sample NetFlow events (pre-transformation) for testing the pipeline

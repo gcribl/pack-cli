@@ -1,0 +1,34 @@
+{
+    "id": "cc-stream-deeptempo-io",
+    "name": "cc-stream-deeptempo-io",
+    "version": "0.9.0",
+    "author": "Sam Armstrong",
+    "description": "Route to DeepTempo S3 to identify malicious behavior in NetFlow via DeepTempo's foundational LogLM",
+    "displayName": "DeepTempo for Netflow",
+    "tags": {
+        "streamtags": [
+            "AI",
+            "NetFlow",
+            "ML",
+            "Mitre",
+            "S3",
+            "AWS"
+        ],
+        "technology": [
+            "cisco",
+            "paloalto",
+            "aws"
+        ],
+        "useCase": [
+            "routing",
+            "enrichment",
+            "filtering",
+            "reduction"
+        ],
+        "dataType": [
+            "logs"
+        ]
+    },
+    "exports": [],
+    "minLogStreamVersion": "4.12.0"
+}
