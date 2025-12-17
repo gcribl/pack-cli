@@ -1,0 +1,26 @@
+#compdef pack-id
+# Zsh completion for pack-id
+# Install: Copy to a directory in $fpath (e.g., /usr/local/share/zsh/site-functions/)
+
+_pack-id() {
+    local curcontext="$curcontext" state line
+    typeset -A opt_args
+
+    _arguments -C \
+        '1:input crbl file:_files -g "*.crbl"' \
+        '2:new pack id:->new_id' \
+        && return 0
+
+    case $state in
+        new_id)
+            local suggestions=(
+                'cc-<product>-<tech>:Community pack naming convention'
+                'cribl-<product>-<tech>:Cribl official pack naming convention'
+            )
+            _describe 'naming conventions' suggestions
+            ;;
+    esac
+}
+
+_pack-id "$@"
+
