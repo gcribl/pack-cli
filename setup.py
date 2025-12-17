@@ -5,13 +5,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="pack-id-tool",
-    version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    version="1.0.1",
+    author="Cribl",
+    author_email="support@cribl.io",
     description="A CLI tool to modify Cribl pack IDs in .crbl files",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/pack-cli",
+    url="https://github.com/gcribl/pack-cli",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
