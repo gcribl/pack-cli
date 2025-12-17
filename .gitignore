@@ -44,6 +44,9 @@ env/
 ehthumbs.db
 Thumbs.db
 
+QuickStart.md
+DEPLOYMENT.md
+FIX_PATH.md
 # Temporary files
 temp_crbl_work_*/
 *.crbl
